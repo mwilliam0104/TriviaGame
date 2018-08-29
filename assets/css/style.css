@@ -1,0 +1,87 @@
+
+
+    
+
+
+ .hero{
+
+    background-image: url(https://orig00.deviantart.net/3b5e/f/2016/358/0/c/star_wars___death_star_wallpaper_by_rocklou-daqj3gl.png);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+	z-index: -10;
+	;
+   
+
+}
+
+.hero{
+    font-family: 'Allerta Stencil', sans-serif;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+}
+
+.main{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+#startButton {
+	border-radius: 8px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+   	transition: box-shadow 1s;
+   }
+
+#startButton:hover {
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.5);    
+    cursor: pointer;
+    transform: translate(5px,10px);
+    transition: box-shadow 1s, transform 2s; 
+    
+}
+ 
+
+
+button {
+	width: 80%;
+	height: 40px;
+	margin: 0 10%;
+	border-radius: 8px;
+	font-family: 'Allerta Stencil', sans-serif;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: aliceblue;
+	font-size: 20px;
+	
+	float: left;
+}
+
+button.answerchoice {
+	display: none;
+}
+
+button:hover {
+	background-color:transparent;
+	color: aliceblue;
+}
+
+.answers div {
+	font-family: 'Allerta Stencil', sans-serif;
+	margin: 0 auto;
+}
+
+
+
+h1, h2, h3, p, .question {
+	font-family: 'Allerta Stencil', sans-serif;
+	text-align: center;
+}
+
+
+
+
